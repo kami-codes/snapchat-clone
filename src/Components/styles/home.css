@@ -1,0 +1,72 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(1, 30, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__window{
+    width: 350px;
+    height: 650px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+
+.home__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.home__topLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home__topMiddle{
+    display: flex;
+    align-items: center;
+    padding: 2px 5px; 
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 50%;
+}
+.home__topMiddle > input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    
+}
+.home__topMiddle > .MuiSvgIcon-root{
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+}
+
+.home__topRight > button{
+background-color: rgb(58, 58, 58) !important;
+color: white !important;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+hr{
+    height: 1px;
+    background-color: rgb(201 201 201);
+    border: none;
+    border-color: #ffffff00;
+}
+
+.home__camera{
+    position: absolute !important;
+    bottom: 10px !important;
+    right: 10px !important;
+}
+.home__camera > .MuiSvgIcon-root {
+    font-size: 30px !important;
+}

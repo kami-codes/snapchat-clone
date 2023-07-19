@@ -1,0 +1,43 @@
+.login{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgb(1, 30, 46);
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    color: white;
+    
+}
+
+.login__container > img{
+    width: 350px;
+}
+
+.login__button{
+    background-color: transparent;
+    border: 1px solid rgb(209, 209, 209) !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    color: rgb(83, 83, 83) !important;
+    display: flex;
+    gap: 10px;
+    background-color: white !important;
+}
+.login__button_img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}

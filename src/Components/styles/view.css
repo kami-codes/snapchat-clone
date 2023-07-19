@@ -1,0 +1,79 @@
+.view{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 30, 46);
+}
+
+.view__window{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 350px;
+    height: 650px;
+    background-color: rgb(55, 55, 55);
+}
+.countdown{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.countdown__time{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.view__sendButton{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+ button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.cancel{
+    color: white;
+   position: absolute;
+   top: 0;
+   left: 0;
+    background-color: transparent !important;
+}
+
+.view__icon.cancel{
+    font-size: 50px !important;
+}
+
+.view__icon{
+    font-size: 35px !important;
+    cursor: pointer;
+}
+
+.view__edit{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    right: 10px;
+    gap: 10px;
+}
